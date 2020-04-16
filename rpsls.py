@@ -12,7 +12,7 @@ install("termcolor")
 
 from termcolor import colored
 
-"""This program plays a game of Rock, Paper, Scissors between two Players,
+"""This program plays a game of Rock, Paper, Scissors, Lizard, Spock between two Players,
 and reports both Player's scores each round."""
 
 moves = ["rock", "paper", "scissors", "lizard", "spock"]
