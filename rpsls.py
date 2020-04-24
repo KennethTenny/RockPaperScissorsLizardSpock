@@ -152,16 +152,16 @@ def beats(one, two):
         case when the moves are different)
     """
     return (
-        (one == "rock" and two == "scissors")
-        or (one == "scissors" and two == "paper")
-        or (one == "paper" and two == "rock")
-        or (one == "rock" and two == "lizard")
-        or (one == "lizard" and two == "spock")
-        or (one == "spock" and two == "scissors")
-        or (one == "scissors" and two == "lizard")
-        or (one == "lizard" and two == "paper")
-        or (one == "paper" and two == "spock")
-        or (one == "spock" and two == "rock")
+        (one == "rock" and two == "scissors") or
+        (one == "scissors" and two == "paper") or
+        (one == "paper" and two == "rock") or
+        (one == "rock" and two == "lizard") or
+        (one == "lizard" and two == "spock") or
+        (one == "spock" and two == "scissors") or
+        (one == "scissors" and two == "lizard") or
+        (one == "lizard" and two == "paper") or
+        (one == "paper" and two == "spock") or
+        (one == "spock" and two == "rock")
     )
 
 
